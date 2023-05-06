@@ -1,10 +1,8 @@
-import com.gustavo.utils.TimeInterval;
-
+import utils.TimeIntervalTest;
 
 public class Main {
     public static void main(String[] args) {
-        TimeInterval interval = new TimeInterval(36484897);
-
-        System.out.println(interval.getLocalTime());
+        TimeIntervalTest intervalTest = new TimeIntervalTest(123341);
+        System.out.println(intervalTest);
     }
 }
