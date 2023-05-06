@@ -26,8 +26,4 @@ public class TimeInterval {
         this.localTime = localTime;
     }
 
-    @Override
-    public String toString() {
-        return localTime.format(DateTimeFormatter.ofPattern("hh:MM:ss"));
-    }
 }
