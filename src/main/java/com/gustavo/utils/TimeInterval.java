@@ -12,7 +12,7 @@ public class TimeInterval {
 
     public TimeInterval(Integer seconds) {
         if (seconds < 0) { // Do not make sense work with negative numbers
-            throw new IllegalArgumentException("Please, enter with a positive number. ;)");
+            throw new IllegalArgumentException("Please, enter with a positive number.");
         }
         setLocalTime(localTime.plusSeconds(seconds));
 

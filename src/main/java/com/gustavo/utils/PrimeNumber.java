@@ -5,7 +5,7 @@ import java.util.List;
 
 public final class PrimeNumber {
 
-    public static final boolean isPrime(int number) {
+    private static final boolean isPrime(int number) {
         if (number <= 1) {
             return false;
         }
