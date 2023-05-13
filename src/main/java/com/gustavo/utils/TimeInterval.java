@@ -1,7 +1,7 @@
 package com.gustavo.utils;
 
 import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
+
 
 public class TimeInterval {
 

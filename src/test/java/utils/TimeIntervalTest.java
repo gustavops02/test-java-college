@@ -7,7 +7,6 @@ public class TimeIntervalTest {
     private Integer minutes;
     private Integer seconds;
 
-
     public TimeIntervalTest(Integer secondsToBeExecuted) {
         setHours(secondsToBeExecuted / secondsEqualOneHour);
         setMinutes((secondsToBeExecuted % secondsEqualOneHour) / 60);
