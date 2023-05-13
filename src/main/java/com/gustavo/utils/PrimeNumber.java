@@ -1,11 +1,8 @@
 package com.gustavo.utils;
-
 import java.util.ArrayList;
 import java.util.List;
-
 public final class PrimeNumber {
-
-    private static final boolean isPrime(int number) {
+    private static boolean isPrime(int number) {
         if (number <= 1) {
             return false;
         }
@@ -16,8 +13,7 @@ public final class PrimeNumber {
         }
         return true;
     }
-
-    public static final List<Integer> addPrimesInArray(int number) {
+    public static List<Integer> addPrimesInArray(int number) {
         List<Integer> list = new ArrayList<>();
         int i = number + 1;
         while(list.size() < 2) {
