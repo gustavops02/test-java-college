@@ -8,6 +8,8 @@ import com.gustavo.utils.exceptions.IOInputException;
 import java.util.List;
 import java.util.Scanner;
 
+import static com.gustavo.utils.PalindromeChecker.isPalindrome;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -29,6 +31,16 @@ public class Main {
                 TimeInterval ti = new TimeInterval(62);
                 System.out.println(ti.getLocalTime());
                 sc.close();
+                break;
+            case 3:
+                int number = 12321; // Número a ser testado
+                boolean isPalindromic = isPalindrome(number);
+
+                if (isPalindromic) {
+                    System.out.println("É UM PALÍNDROMO");
+                } else {
+                    System.out.println("NÃO É UM PALÍNDROMO");
+                }
                 break;
             case 4:
 
