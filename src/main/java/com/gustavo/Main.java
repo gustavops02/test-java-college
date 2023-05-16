@@ -1,5 +1,4 @@
 package com.gustavo;
-
 import com.gustavo.utils.Automotive;
 import com.gustavo.utils.PrimeNumber;
 import com.gustavo.utils.Split;
@@ -51,7 +50,7 @@ public class Main {
                 sc.close();
                 break;
             default:
-                throw new IOInputException("O número" + choiceNumber + " é diferente dos números pedidos");
+                throw new IOInputException("O número" + choiceNumber + " é diferente dos números pedidos", sc);
         }
 
     }
